@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PizzaHouse | Wood-Fired Pizza in Cairo</title>
+  <meta name="description" content="PizzaHouse serves fresh, hand-stretched pizza made with real ingredients. Order online or visit us in Cairo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">Pizza<span>House</span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="main-nav" class="main-nav" aria-label="Main">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#offers">Offers</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#menu" class="btn btn-primary btn-small">Order Now</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-text">
+        <p class="hero-kicker">Fresh ingredients, great taste</p>
+        <h1>The best pizza in town</h1>
+        <p class="hero-lead">Dough proved for 48 hours, San Marzano tomatoes and fresh mozzarella, baked in a wood-fired oven. Simple food done properly.</p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-primary">Order Now</a>
+          <a href="#menu" class="btn btn-outline">View Menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Our popular menu</h2>
+        <p>Made with the freshest ingredients, prepared to order.</p>
+      </div>
+      <div class="menu-grid">
+        <article class="pizza-card reveal">
+          <img src="images/pizza-pepperoni.jpg" alt="Pepperoni pizza with a slice being lifted" loading="lazy">
+          <div class="pizza-body">
+            <h3>Pepperoni</h3>
+            <p>Spicy pepperoni, mozzarella, tomato sauce.</p>
+            <div class="pizza-foot"><span class="price">$10.99</span><button class="btn btn-outline btn-small order-btn" data-item="Pepperoni">Order</button></div>
+          </div>
+        </article>
+        <article class="pizza-card reveal">
+          <img src="images/pizza-supreme.jpg" alt="Supreme pizza with pepperoni, olives and mushrooms" loading="lazy">
+          <div class="pizza-body">
+            <h3>Supreme</h3>
+            <p>Pepperoni, green olives, mushrooms, mozzarella.</p>
+            <div class="pizza-foot"><span class="price">$12.99</span><button class="btn btn-outline btn-small order-btn" data-item="Supreme">Order</button></div>
+          </div>
+        </article>
+        <article class="pizza-card reveal">
+          <img src="images/pizza-meat-lovers.jpg" alt="Meat lovers pizza on a wooden board" loading="lazy">
+          <div class="pizza-body">
+            <h3>Meat Lovers</h3>
+            <p>Salami, smoked ham, mushrooms, black olives.</p>
+            <div class="pizza-foot"><span class="price">$13.99</span><button class="btn btn-outline btn-small order-btn" data-item="Meat Lovers">Order</button></div>
+          </div>
+        </article>
+        <article class="pizza-card reveal">
+          <img src="images/pizza-chicken-rocket.jpg" alt="Chicken pizza topped with fresh rocket and jalapenos" loading="lazy">
+          <div class="pizza-body">
+            <h3>Chicken &amp; Rocket</h3>
+            <p>Grilled chicken, jalapeno, fresh rocket leaves.</p>
+            <div class="pizza-foot"><span class="price">$11.99</span><button class="btn btn-outline btn-small order-btn" data-item="Chicken &amp; Rocket">Order</button></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="offers" class="section-tight">
+    <div class="container">
+      <div class="offer">
+        <img src="images/offer-slice.jpg" alt="Pizza on a wooden board with a slice being pulled away" loading="lazy">
+        <div class="offer-text">
+          <p class="offer-tag">Every Monday</p>
+          <h2>Buy 1 get 1 free</h2>
+          <p>On all large pizzas, dine-in and takeaway.</p>
+          <a href="#contact" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container about">
+      <div class="about-text">
+        <h2>About our restaurant</h2>
+        <p>PizzaHouse opened in 2014 with one oven and a short menu. We still make our dough in-house every morning and cook everything to order.</p>
+        <p>We buy vegetables from local farms, import our tomatoes and flour from Italy, and keep the room warm and unhurried, whether you're here for a quick lunch or a long family dinner.</p>
+        <ul class="about-facts">
+          <li><strong>48h</strong> dough fermentation</li>
+          <li><strong>2014</strong> family-run since</li>
+          <li><strong>90s</strong> in the oven</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline">Visit us</a>
+      </div>
+      <div class="about-gallery">
+        <img class="wide" src="images/restaurant-interior.jpg" alt="Pizzeria dining room with a wooden counter and stacked pizza boxes" loading="lazy">
+        <img class="square" src="images/kitchen-chefs.jpg" alt="Cooks spreading tomato sauce on hand-stretched dough" loading="lazy">
+        <img class="square" src="images/kitchen-takeaway.jpg" alt="Freshly baked pizzas in boxes being cut for takeaway" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="section section-alt">
+    <div class="container">
+      <div class="section-head"><h2>What our customers say</h2></div>
+      <div class="review-grid">
+        <blockquote class="review reveal">
+          <p>"The best pizza I've ever had. Authentic taste and great service."</p>
+          <footer><span class="stars" aria-label="5 out of 5">★★★★★</span> Sara Ahmed</footer>
+        </blockquote>
+        <blockquote class="review reveal">
+          <p>"Fresh ingredients, amazing flavors. Highly recommended."</p>
+          <footer><span class="stars" aria-label="5 out of 5">★★★★★</span> Omar Khaled</footer>
+        </blockquote>
+        <blockquote class="review reveal">
+          <p>"The place is cozy and the food is just perfect."</p>
+          <footer><span class="stars" aria-label="5 out of 5">★★★★★</span> Laila Hassan</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container contact">
+      <div class="contact-info">
+        <h2>Visit or order</h2>
+        <p>Open daily, 11:00 to 23:00. Delivery within 5 km.</p>
+        <address>
+          <p><strong>Address</strong><br>24 Nile Corniche Street, Cairo, Egypt</p>
+          <p><strong>Phone</strong><br><a href="tel:+201234567890">+20 123 456 7890</a></p>
+          <p><strong>Email</strong><br><a href="mailto:info@pizzahouse.com">info@pizzahouse.com</a></p>
+        </address>
+        <form class="contact-form" novalidate>
+          <label for="contact-name">Name</label>
+          <input id="contact-name" name="name" type="text" required>
+          <label for="contact-email">Email</label>
+          <input id="contact-email" name="email" type="email" required>
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" name="message" rows="3" required></textarea>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-status" role="status"></p>
+        </form>
+      </div>
+      <div class="map">
+        <iframe title="PizzaHouse location on map" src="https://www.openstreetmap.org/export/embed.html?bbox=31.20%2C30.02%2C31.29%2C30.08&amp;layer=mapnik" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="#home" class="logo">Pizza<span>House</span></a>
+      <p>Good food, good mood.</p>
+    </div>
+    <div>
+      <h3>Quick links</h3>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#offers">Offers</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Contact us</h3>
+      <ul>
+        <li>+20 123 456 7890</li>
+        <li>info@pizzahouse.com</li>
+        <li>Cairo, Egypt</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Get our offers</h3>
+      <form class="footer-form" novalidate>
+        <label for="footer-email" class="visually-hidden">Email address</label>
+        <input id="footer-email" type="email" placeholder="Your email address" required>
+        <button type="submit" class="btn btn-primary btn-small">Subscribe</button>
+      </form>
+      <p class="form-status footer-status" role="status"></p>
+    </div>
+  </div>
+  <p class="copyright">&copy; 2026 PizzaHouse. All rights reserved.</p>
+</footer>
+
+<div class="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
